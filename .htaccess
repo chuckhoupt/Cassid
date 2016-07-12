@@ -1,1 +1,2 @@
+# Activate Multiviews to support extension-less URLs (e.g. /login)
 Options +Multiviews
