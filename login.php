@@ -9,9 +9,8 @@ case 'GET': ?>
 
 <h2>Shortcuts</h2>
 
-<form method="post"><input name="user" type="hidden" value="thoupt"><button>Login as THoupt</button></form>
-<form method="post"><input name="user" type="hidden" value="biofaculty"><button>Login as Biofaculty</button></form>
-<form method="post"><input name="user" type="hidden" value="biostudent"><button>Login as Biostudent</button></form>
+<form method="post"><input name="user" type="hidden" value="admin"><button>Login as Admin</button></form>
+<form method="post"><input name="user" type="hidden" value="user1"><button>Login as User1</button></form>
 
 <!-- <a href="<?= $_GET['service'] . '?' . $query ?>">login</a> -->
 
