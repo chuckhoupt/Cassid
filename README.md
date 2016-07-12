@@ -1,4 +1,4 @@
-<img src="cassidae.png" style="width: 25%; float: left;">
+<img src="cassidae.png" width="139.5">
 
 # Cassid: a fake CAS login shell
 
