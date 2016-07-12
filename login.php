@@ -1,6 +1,17 @@
 <?php
 switch ($_SERVER['REQUEST_METHOD']):
 case 'GET': ?>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Cassid Fake Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" contents="noindex, nofollow">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
 <h1>Fake CAS Login</h1>
 <form method="post">
 	<p><label>User: <input name="user" placeholder="fake user ID" required autofocus autocomplete="username" autocorrect="off"></label>
@@ -12,7 +23,8 @@ case 'GET': ?>
 <form method="post"><input name="user" type="hidden" value="admin"><button>Login as Admin</button></form>
 <form method="post"><input name="user" type="hidden" value="user1"><button>Login as User1</button></form>
 
-<!-- <a href="<?= $_GET['service'] . '?' . $query ?>">login</a> -->
+</body>
+</html>
 
 <?php
 	break;
