@@ -15,9 +15,7 @@ if (php_sapi_name() == 'cli-server') {
 <head>
 	<meta charset="utf-8">
 	<title>Cassid Server - a fake CAS login service</title>
-	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>

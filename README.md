@@ -1,4 +1,4 @@
-<img src="cassidae.png" width="139.5">
+<img src="apple-touch-icon-precomposed.png" width="128" alt="Cassidae shell">
 
 # Cassid: a fake CAS login shell
 
