@@ -12,7 +12,7 @@ Cassid can be run via Apache or directly with PHP's build-in web server.
 For example, to run on [locahost](http://localhost:8000):
 
 ```
-git checkout https://github.com/chuckhoupt/Cassid.git
+git clone https://github.com/chuckhoupt/Cassid.git
 cd Cassid
 php -S localhost:8000
 ```
